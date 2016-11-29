@@ -1,0 +1,14 @@
+name: BlendyItems
+main: me.blendycat.BlendyItems
+version: 1.2
+commands:
+  rename:
+    description: Rename the item in your hand (allows color codes)
+    usage: /<command> <new name>
+    aliases: [name, renameitem, namethatitem]
+  lore:
+    description: Add or edit the lore of an item (& for color codes)
+    usage: /<command> <new lore>
+  iron:
+    description: convert a stack of cobble to iron
+    usage: /<command>
